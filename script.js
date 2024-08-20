@@ -25,7 +25,7 @@ const humanChoice = getHumanChoice();
 
 function getHumanChoice(){
     let promptChoice = prompt('Make your Choice');  //prompt asking for player input
-    return promptChoice.toLowerCase();
+    return promptChoice.toLowerCase();  //turns input into lower case to be accepted in playRound() function
 }
 console.log('Human picked: ' + humanChoice);
 
